@@ -1,0 +1,39 @@
+header{
+    background-color: rgb(238, 238, 238);
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+body{
+    margin: 0%;
+}
+h1{
+    margin: 0%;
+    line-height: 100%;
+    position: relative;
+    top: 150px; 
+    animation: title 1.5s infinite  alternate-reverse;
+    font-size: 50px;
+    font-weight: bold;
+    color: blueviolet;
+}
+span{
+    animation: title 2s infinite  alternate-reverse;
+    display: block;
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    top: 36px;
+}
+.one{
+    top: 96px;
+    animation: title 3s infinite  alternate-reverse;
+}
+@keyframes title{
+    0%{
+        transform: translate(0,0);
+    }
+    100%{
+        transform: translate(-20px,20px)
+    }
+}
